@@ -1,0 +1,146 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\leona\\OneDrive\\Documents\\Projetos Visual Studio\\prototipo_modulo_inventario\\InventoryCycle.Tests\\InventoryCycle.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\leona\\OneDrive\\Documents\\Projetos Visual Studio\\prototipo_modulo_inventario\\InventoryCycle.Domain\\InventoryCycle.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\leona\\OneDrive\\Documents\\Projetos Visual Studio\\prototipo_modulo_inventario\\InventoryCycle.Domain\\InventoryCycle.Domain.csproj",
+        "projectName": "InventoryCycle.Domain",
+        "projectPath": "C:\\Users\\leona\\OneDrive\\Documents\\Projetos Visual Studio\\prototipo_modulo_inventario\\InventoryCycle.Domain\\InventoryCycle.Domain.csproj",
+        "packagesPath": "C:\\Users\\leona\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\leona\\OneDrive\\Documents\\Projetos Visual Studio\\prototipo_modulo_inventario\\InventoryCycle.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\leona\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.416/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\leona\\OneDrive\\Documents\\Projetos Visual Studio\\prototipo_modulo_inventario\\InventoryCycle.Tests\\InventoryCycle.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\leona\\OneDrive\\Documents\\Projetos Visual Studio\\prototipo_modulo_inventario\\InventoryCycle.Tests\\InventoryCycle.Tests.csproj",
+        "projectName": "InventoryCycle.Tests",
+        "projectPath": "C:\\Users\\leona\\OneDrive\\Documents\\Projetos Visual Studio\\prototipo_modulo_inventario\\InventoryCycle.Tests\\InventoryCycle.Tests.csproj",
+        "packagesPath": "C:\\Users\\leona\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\leona\\OneDrive\\Documents\\Projetos Visual Studio\\prototipo_modulo_inventario\\InventoryCycle.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\leona\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\leona\\OneDrive\\Documents\\Projetos Visual Studio\\prototipo_modulo_inventario\\InventoryCycle.Domain\\InventoryCycle.Domain.csproj": {
+                "projectPath": "C:\\Users\\leona\\OneDrive\\Documents\\Projetos Visual Studio\\prototipo_modulo_inventario\\InventoryCycle.Domain\\InventoryCycle.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.5.3, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.5.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.416/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

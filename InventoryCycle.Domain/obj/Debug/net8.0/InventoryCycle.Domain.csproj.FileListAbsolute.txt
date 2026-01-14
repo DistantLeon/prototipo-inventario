@@ -1,0 +1,11 @@
+C:\Users\leona\OneDrive\Documents\Projetos Visual Studio\prototipo_modulo_inventario\InventoryCycle.Domain\bin\Debug\net8.0\InventoryCycle.Domain.deps.json
+C:\Users\leona\OneDrive\Documents\Projetos Visual Studio\prototipo_modulo_inventario\InventoryCycle.Domain\bin\Debug\net8.0\InventoryCycle.Domain.dll
+C:\Users\leona\OneDrive\Documents\Projetos Visual Studio\prototipo_modulo_inventario\InventoryCycle.Domain\bin\Debug\net8.0\InventoryCycle.Domain.pdb
+C:\Users\leona\OneDrive\Documents\Projetos Visual Studio\prototipo_modulo_inventario\InventoryCycle.Domain\obj\Debug\net8.0\InventoryCycle.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leona\OneDrive\Documents\Projetos Visual Studio\prototipo_modulo_inventario\InventoryCycle.Domain\obj\Debug\net8.0\InventoryCycle.Domain.AssemblyInfoInputs.cache
+C:\Users\leona\OneDrive\Documents\Projetos Visual Studio\prototipo_modulo_inventario\InventoryCycle.Domain\obj\Debug\net8.0\InventoryCycle.Domain.AssemblyInfo.cs
+C:\Users\leona\OneDrive\Documents\Projetos Visual Studio\prototipo_modulo_inventario\InventoryCycle.Domain\obj\Debug\net8.0\InventoryCycle.Domain.csproj.CoreCompileInputs.cache
+C:\Users\leona\OneDrive\Documents\Projetos Visual Studio\prototipo_modulo_inventario\InventoryCycle.Domain\obj\Debug\net8.0\InventoryCycle.Domain.dll
+C:\Users\leona\OneDrive\Documents\Projetos Visual Studio\prototipo_modulo_inventario\InventoryCycle.Domain\obj\Debug\net8.0\refint\InventoryCycle.Domain.dll
+C:\Users\leona\OneDrive\Documents\Projetos Visual Studio\prototipo_modulo_inventario\InventoryCycle.Domain\obj\Debug\net8.0\InventoryCycle.Domain.pdb
+C:\Users\leona\OneDrive\Documents\Projetos Visual Studio\prototipo_modulo_inventario\InventoryCycle.Domain\obj\Debug\net8.0\ref\InventoryCycle.Domain.dll
