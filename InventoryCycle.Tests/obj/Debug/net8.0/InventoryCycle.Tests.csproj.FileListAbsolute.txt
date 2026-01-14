@@ -100,3 +100,4 @@ C:\Users\leona\OneDrive\Documents\Projetos Visual Studio\prototipo_modulo_invent
 C:\Users\leona\OneDrive\Documents\Projetos Visual Studio\prototipo_modulo_inventario\InventoryCycle.Tests\obj\Debug\net8.0\InventoryCycle.Tests.pdb
 C:\Users\leona\OneDrive\Documents\Projetos Visual Studio\prototipo_modulo_inventario\InventoryCycle.Tests\obj\Debug\net8.0\InventoryCycle.Tests.genruntimeconfig.cache
 C:\Users\leona\OneDrive\Documents\Projetos Visual Studio\prototipo_modulo_inventario\InventoryCycle.Tests\obj\Debug\net8.0\ref\InventoryCycle.Tests.dll
+C:\Users\leona\OneDrive\Documents\Projetos Visual Studio\prototipo_modulo_inventario\InventoryCycle.Tests\obj\Debug\net8.0\InventoryCycle.Tests.sourcelink.json

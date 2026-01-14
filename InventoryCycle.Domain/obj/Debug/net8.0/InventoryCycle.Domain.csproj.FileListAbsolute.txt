@@ -9,3 +9,4 @@ C:\Users\leona\OneDrive\Documents\Projetos Visual Studio\prototipo_modulo_invent
 C:\Users\leona\OneDrive\Documents\Projetos Visual Studio\prototipo_modulo_inventario\InventoryCycle.Domain\obj\Debug\net8.0\refint\InventoryCycle.Domain.dll
 C:\Users\leona\OneDrive\Documents\Projetos Visual Studio\prototipo_modulo_inventario\InventoryCycle.Domain\obj\Debug\net8.0\InventoryCycle.Domain.pdb
 C:\Users\leona\OneDrive\Documents\Projetos Visual Studio\prototipo_modulo_inventario\InventoryCycle.Domain\obj\Debug\net8.0\ref\InventoryCycle.Domain.dll
+C:\Users\leona\OneDrive\Documents\Projetos Visual Studio\prototipo_modulo_inventario\InventoryCycle.Domain\obj\Debug\net8.0\InventoryCycle.Domain.sourcelink.json
