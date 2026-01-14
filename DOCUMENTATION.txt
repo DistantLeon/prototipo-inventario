@@ -1,0 +1,77 @@
+# Documentação do Módulo de Lógica de Domínio - Inventário Rotativo (Cycle Counting)
+
+## Visão Geral
+Este projeto é uma biblioteca de classes (.NET 8.0) focada na lógica de domínio para um sistema de Inventário Rotativo. Ele foi desenhado para ser agnóstico de infraestrutura, contendo apenas regras de negócio puras, algoritmos de classificação e cálculos estatísticos.
+
+## Estrutura do Projeto
+- **InventoryCycle.Domain**: Biblioteca contendo as entidades e serviços de lógica.
+- **InventoryCycle.Tests**: Projeto de testes unitários (xUnit) para validação das regras.
+
+---
+
+## 1. Entidades de Domínio
+
+### InventoryProduct
+Representa um item do inventário elegível para contagem.
+- **PartNumber**: Identificador do produto (SKU).
+- **AverageOutputRate**: Média de saída (vendas/consumo), usada para determinar a importância do item (Curva ABC).
+- **LastInventoryDate**: Data da última conferência realizada.
+- **AssignedClass**: Classificação atual (A, B ou C).
+
+### ProductClass (Enum)
+Categorias de classificação baseadas na Curva ABC.
+- **A**: Alta rotatividade (Top 20% do volume).
+- **B**: Média rotatividade (Próximos 30%).
+- **C**: Baixa rotatividade (Restantes 50%).
+
+### CountResult
+Objeto de retorno contendo os resultados de uma contagem física.
+- **SnapshotQty**: Quantidade sistêmica no momento do corte.
+- **CountedQty**: Quantidade física apurada.
+- **AccuracyPercentage**: Índice de acuracidade (0% a 100%).
+- **Variance**: Diferença absoluta (Sobras ou Faltas).
+- **IsAdjustmentNeeded**: Flag indicando se é necessário ajuste de estoque.
+
+---
+
+## 2. Serviços (Core Logic)
+
+### AbcClassifier
+Responsável por atribuir a classe (A, B ou C) aos produtos.
+**Algoritmo:**
+1. Ordena a lista de produtos pelo `AverageOutputRate` (decrescente).
+2. Calcula os pontos de corte baseados na quantidade total de itens:
+   - 0-20%: Classe A
+   - 21-50%: Classe B
+   - 51-100%: Classe C
+
+### SchedulerService
+Determina se um produto precisa ser contado na data atual (`IsDueForCount`).
+**Regras de Frequência:**
+- **Classe A**: Contagem a cada 30 dias.
+- **Classe B**: Contagem a cada 90 dias.
+- **Classe C**: Contagem a cada 90 dias.
+
+### AccuracyService
+Calcula a precisão do inventário.
+**Fórmulas:**
+- `Variance` = Contagem Física - Quantidade Sistema
+- `Accuracy` = (1 - (|Variance| / Quantidade Sistema)) * 100
+  * *Nota: Se Sistema=0 e Contagem=0, Acuracidade é 100%.*
+
+---
+
+## 3. Como Executar
+
+### Pré-requisitos
+- .NET SDK 8.0
+
+### Comandos
+1. **Restaurar dependências:**
+   `dotnet restore`
+
+2. **Compilar o projeto:**
+   `dotnet build`
+
+3. **Executar Testes Unitários:**
+   `dotnet test`
